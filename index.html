@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Байкал Тур — путешествия по горам</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #263238;
+            background: #f4f6f5;
+        }
+
+        header {
+            background: #1d4545;
+            color: white;
+            padding: 20px 60px;
+        }
+
+        header h1 {
+            display: inline;
+            margin-right: 50px;
+        }
+
+        nav {
+            display: inline;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 25px;
+        }
+
+        .banner {
+            background: #c8ded7;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .banner h2 {
+            font-size: 36px;
+        }
+
+        .banner p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #1d4545;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .card {
+            position: relative;
+            width: 1000px;
+            height: 350px;
+            margin: 30px auto;
+            overflow: hidden;
+            background: white;
+        }
+
+        .card img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 25px;
+            color: white;
+            background: linear-gradient(to top,
+                    rgba(12, 35, 34, 0.85),
+                    rgba(12, 35, 34, 0.15) 100%);
+        }
+
+        .card-content h2 {
+            color: white;
+            font-size: 30px;
+            margin: 0 0 10px;
+        }
+
+        .card-content p {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .tours {
+            width: 1000px;
+            margin: 30px auto;
+            padding: 25px;
+            box-sizing: border-box;
+            background: white;
+            text-align: center;
+        }
+
+        .tours h2 {
+            color: #1d4545;
+        }
+
+        footer {
+            background: #1d4545;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Байкал Тур</h1>
+
+        <nav>
+            <a href="./index.html">Главная</a>
+            <a href="./pages/contacts.html">Контакты</a>
+            <a href="./pages/about.html">О нас</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>Открой для себя горный Байкал</h2>
+            <p>Незабываемые путешествия, горные маршруты и красота природы.</p>
+        </section>
+
+        <section class="card">
+            <img src="./img/road.jpg" alt="Горный пейзаж">
+            <div class="card-content">
+                <h2>Горные маршруты</h2>
+                <p>Исследуй живописные тропы, горные вершины
+                    и невероятные пейзажи Байкала.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="./img/lake.jpg" alt="Озеро среди гор">
+            <div class="card-content">
+                <h2>Озеро и природа</h2>
+                <p>Отдохни у кристально чистой воды
+                    и насладись тишиной сибирской природы.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="./img/trip.jpg" alt="Величественные горы">
+            <div class="card-content">
+                <h2>Путешествия с гидом</h2>
+                <p>Выбирай маршрут, открывай новые места
+                    и создавай собственные воспоминания.</p>
+            </div>
+        </section>
+
+        <section class="tours" id="about">
+            <h2>О нашем турагентстве</h2>
+            <p>
+                Мы организуем путешествия по горному Байкалу,
+                помогаем выбирать маршруты и знакомим туристов
+                с красотой сибирской природы.
+            </p>
+        </section>
+    </main>
+
+    <footer id="contacts">
+        <p>Байкал Тур © 2026</p>
+        <p>Телефон: +7 (900) 123-45-67</p>
+        <p>Email: info@baikal-tour.ru</p>
+    </footer>
+
+</body>
+
+</html>
